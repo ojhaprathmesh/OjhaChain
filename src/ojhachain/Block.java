@@ -1,5 +1,7 @@
-import java.util.concurrent.ExecutorService;
+package ojhachain;
+
 import java.util.concurrent.Executors;
+import java.util.concurrent.ExecutorService;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 public class Block {
@@ -38,7 +40,7 @@ public class Block {
                                 found.set(true);
                                 nonce = localNonce;
                                 hash = newHash;
-                                System.out.println("Block Mined!!! : " + hash);
+                                System.out.println("ojhachain.Block Mined!!! : " + hash);
                             }
                         }
                         break;
